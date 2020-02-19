@@ -1,0 +1,39 @@
+<resources>
+    <!--activity_main-->
+    <string name="app_name">16010337_Expense_System</string>
+    <string name="activity_main_label">Expense System</string>
+    <string name="activity_add_expense_label">Add a new expense</string>
+    <string-array name="filter_spinner_options">
+        <item name = "all_expenses">Show all expenses</item>
+        <item name = "paid_expenses">Only show paid expenses</item>
+        <item name = "unpaid_expenses">Only show unpaid expenses</item>
+    </string-array>
+    <string name="btnAddExpense_text">Add New Expense</string>
+
+    <!--activity_add_new_expense_views-->
+    <string name="activity_add_new_expense_label">Add a New Expense</string>
+    <string name="tvItemValue_text">Item value</string>
+    <string name="etSummaryOfExpense_text">Please enter a summary of the expense here.</string>
+    <string name="btnChoosePhoto_text">Choose Image of Receipt (Optional)</string>
+    <string name="btnSaveExpense_text">Save Expense</string>
+    <!--these are also used by expense_list_object.xml-->
+    <string name="tvTotalCost_text">TotalCost</string>
+    <string name="tvDatePurchased_text">Date of Purchase</string>
+    <string name="tvDateClaimed_text">Date Expense was Claimed</string>
+    <string name="tvDateAdded_text">Date Added</string>
+    <string name="tvVAT_text">VAT</string>
+    <string name="does_Item_Value_Include_VAT">Does the item value include VAT?</string>
+    <string name="has_expense_been_paid">Has expense been paid?</string>
+
+    <!--activity_add_new_expense_error_messages-->
+    <string name="date_format_error">The date you entered is of the incorrect format, please ensure you enter a date in the format of dd/mm/yyyy.</string>
+    <string name="summary_length_error">The summary of the expense needs to be at least 20 characters</string>
+    <string name="empty_field_error">This field cannot be empty.</string>
+    <string name="empty_Item_Value_when_calculating_VAT_error">VAT cannot be calculated if the item value is not greater than 0.</string>
+    <string name="item_value_surpassed_its_maximum">The maximum item value is 999,999.00.</string>
+
+    <!--expense_list_object-->
+    <string name="btnMarkAsPaid_text">Mark as paid</string>
+    <string name="this_will_be_populated_with_data">This will be populated with data.</string>
+    <string name="tvExpenseID_desc_text">Expense ID</string>
+</resources>
